@@ -1,0 +1,69 @@
+.fredoka-np {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.iconoir--linkedin {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5'%3E%3Cpath d='M21 8v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5M7 17v-7'/%3E%3Cpath d='M11 17v-3.25M11 10v3.75m0 0c0-3.75 6-3.75 6 0V17M7 7.01l.01-.011'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+body {
+    background: #fd6179;
+    color: #262626;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    margin: 10rem auto;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.0;
+    margin: 0 0 20px;
+}
+
+a:link, a:visited {
+    color: #262626;
+    display: block;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+
+a:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+li {
+    font-size: 24px;
+    margin: 0 10px;
+    padding: 0;
+}
