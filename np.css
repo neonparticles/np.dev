@@ -23,6 +23,7 @@ body {
     background: #fd6179;
     color: #262626;
     text-align: center;
+    border-top: 20px solid #262626;
 }
 
 img {
